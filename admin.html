@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */
+
+
+    /* Remove the jumbotron's default bottom margin */
+     .jumbotron {
+      margin-top: -20px;
+      background-color: grey;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: grey;
+      padding: 25px;
+    }
+
+    body {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<nav class="navbar">
+ <div class="brandPic">
+   <img class="imgOne" src="https://nj.vsand-static.com/Logos/3191.png?maxwidth=1100&maxheight=1100" alt="logo">
+
+ </div>
+ <a class="togglebutton" href="#">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+ </a>
+ <div class="navlinks">
+<ul>
+<li> <a href="index.html"> Home </a> </li>
+<li> <a href="about.html"> About Us</a> </li>
+<li> <a href="admin.html"> Administration </a> </li>
+<li> <a href="contact.html"> Building Contact Information </a> </li>
+  <ul>
+ </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Administration</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading"> Dr. Alicia K. Scelso</div>
+        <div class="panel-body"><img src="https://www.frhsd.com/cms/lib/NJ01912687/Centricity/Domain/162/Alicia%20Scelso.jpg" class="img-responsive" style="height:500px" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Dr. Scelso began her career in 2000 as a Health and Physical Education teacher, coach, and activity advisor at Oakcrest High School. In 2009, Dr. Scelso became an assistant principal in the Egg Harbor Township School District at Fernwood Avenue Middle School, and in 2012 she was transferred to the Egg Harbor Township High School. Dr. Scelso then served as principal of Pequannock Township High School from 2016-2019.  Dr. Scelso became the principal of Freehold Township High School on July 1, 2019.
+
+Dr. Scelso earned her Bachelor of Science degree from Salisbury University and her Masters and Doctorate degrees from Widener University.  </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="panel panel-danger">
+        <div class="panel-heading">Dr. Shae-Brie Dow</div>
+        <div class="panel-body"><img src="https://0.academia-photos.com/10822295/3237127/3809675/s200_shae-brie.dow.jpg" class="img-responsive" style="height:500px;" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"> I am an educator with experience spanning over two decades. I have been an administrator for the Freehold Regional High School District for over 11 years. Prior to joining the FRHSD administrative team, I was a k-12 district science supervisor for a very large school district in northern NJ, and taught a range of classes from advanced placement to self-contained during my 7 years as a high school chemistry teacher.
+
+In addition to my experience in the field of public education, I have also served as an executive director with Dow Holdings, Incorporated; a Science & Mathematics Curriculum Development Supervisor with Ego-Ideal After School & Tutoring, Incorporated; and co-founded non-profit, Reaching Beyond Autism, serving as executive director as well.
+
+
+I hold a dual degree in Chemistry and Secondary Education, as well as advanced degrees in Educational Leadership, Management, and Policy.</div>
+      </div>
+    </div>
+    <br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading"> Ms. Leighanne Recktenwald</div>
+        <div class="panel-body"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgWFRYYGBgZGhoZGhgYHBgcGBgZGBwaGhgYGBgcIS4lHB4rIRoYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHBISHjQkISExNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwABBAUG/8QAORAAAQMBBQUGBQQBBAMAAAAAAQACESEDBBIxQQVRYXGREyKBobHwBjJSwdFCYuHxchQjkrIVgtL/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIEAwX/xAAiEQEBAAICAgMAAwEAAAAAAAAAAQIRAxITITEyQSJRYQT/2gAMAwEAAhEDEQA/AOQbVWLdZlQC5vG9e7X2ynbBZlCU8a92oWwV9uN6xzwReCeM7tYtQr7ULICiBTxndoZa6JgtQsJKMP4BXxneNYtFDbjeswedyVaHgnjO8bhbjer7ULnwdyY0xonjO7b2oQvtVmngop407tnbDeoLYLHhUhPGd2ztgr7VY4UhPGeRr7ZUbZZYUhPGnkae3S23nPNKhALPPPNXxnkazboTbrO1nqVeFPGeQ42/FCbfigwKYE8aeQXboDeVeBTAnjh3oH3jzU7bRHgVYVekO9UbQoS8o8KhanSJ2pWMq5KLCpCdId6W8mKJWNyeWoeyCdYd6oGVYUaIyVr0YUonNYoWBBmfatBglTt2xM0mNc+G9ON2YTJE9dFBdW5RQViTmtBJtmgwTWmh1/sdU5E66sJkjX8fgJnZj3xU9BUK4TXshC0KgMKaLB2EuwmACSY0GfNNZbYflAHGJPUzCJ16MfKHH95P9Dopd/kWa/XFftVgpD+gEdSm2e0bN36o4OEfwubfLk/EBgiSACC9+ZgSTJ8k92xLRkBwaWOcBiBFREkt1ylX1E1b7dVpBEjVErDU4WYQJSP9Uz6h5raGD35rMbkzLDodTuQCy8tJAmrojx8kTLw0mNZiIV2dzZIOGogDPlv4pjbq1rpjXOsjzU3EuNXCkJ7WD3y5qnsoqhOFSEcKFqaNuabd+J4myaGnNxcJkSD0hPs70w4RjYXGKNM97UDhKSLmH2loXsBa6MLpE90YaRUTn4JljYN7S0GEUNk9tIg4TUeKy16aIUhMhTCrpksAqYSmsHqFMMpVjDeGWmLu5eGfjohZZWlcR0EQRzIzpOS6J5+iDEN+n9KbVi/0z8Il3eBqZMVqOeiZd7FzWw4yd9T9lpLhv/tUXKboWbNC5qZKB6CmkaifGE3tm/Q3xmUlUpYS6UAiwpgarwr00mwBFKMMV4U0bKe7d5USi8++C0hkqNsgFdGymPJKZKNrFZaro2EoSE/CpgV0bIaDuVgFPwosCaQgMnMK3lzsOIzhBAJmYMZ78s896c1qtzFLjs3YzwjB+3kiLUTWJpNlvdTklYzHvVaSyiVgos2NY0uztDBRF5MqWQ4J3Zqaa3VMcSB7yooUyys6BHgWtPPbMW7kOErXgVYFdJtmwFAy7tDy/D3iIJrw4xoFrwqYU0uyIVQtOAKnMCaNs0KwAnlgQuYpYbJdks7mrZhTbO6l/wAon06rOpF+XNLDuTC1VtC8GyJaWOMRUfLUTGJYW7YGrD4O/hNbG/CqLUF3vbHuwgOBzqMlocE0bZ+zU7NOwqQoDFmrwpoNffgo46LZSmtT2WA1c0eJ/CWFaujbXZWbGj9J4vJHRo05rym0i9rjD3xJ/UINaQAZhegCw3rZbH1b3TwyPhp4K446Xe3Gu97eCe+4QKA94HhXJd+5uc5gc/M1yihy8vVNtrjYlrMLGyZxGMMBgjCWjUl7STrANRCdCsu0ymltZwVYE9jaeH3REeVfT8IOdeXvBIaydxgmsA6KNtHw4ubEZCDvImdaRkui48p/mEYYfMoOXjfAIbWCYg7xHlK0WMloLhB1EER1WwCvCqhy6b1NoyYUTGrQBkfz5FDGaRKUGrDtQltmSHFsFskZwTB9Z8F0gFz9qzgMECrSZ3NM04yApn8baw+zmXe+MZjLe1NB85pIrMGozUsG3m2OIHAzTMU5BIZL3tB/UfJeuuzAIouDk57PUfQ4+HG+64trY3mzEgh4Ggz6HNaNm7RFqIiHfT+F6B7QRovKbbu/Z2jXspiNeDxWfEeivD/0XesmOX/nxs3PTtYClXixcWnCYNK0pUT5KtmXwPbucBUUGtCFuaK0O7+fsu6Zbm3DcdXVcd1ytTPfpSmI8ddAd3Lcni6Ox4ie7IpJP6YiNK+q2PfFCdMvFTtG1rrr4fhXaOfZ7OcHA4hAIocvlApTPMrb2J9gpnaN0Os6yhxCPD7p7X0UbNLcFoc4JJRFsc0foBPEmOgTheiRUSNwOFvQflZS4KwVm4yrLYy7VsnWhBDGSBAmRTwp1XHu+ynveWnuEAkUJBNABMwJnMmAvQlwVHPdFQRmDvBTWpqLMvftzbts59m89oQTgFAZ+avlBC2FqY8kkuMSYkjWABJ3ZKiszd+S2b9JhCrBy6Ky5Le8zomjYirAVFEF6ovCqwowogFrM0TWQo1GiBDRnr5qEIgoQqLbkrJUaFbgiFtmNExjypkFLNwIoR1CLscqFSFHGiJsIVh4CzOeSrYiCLyuXte0hoG+p8F0lyttskNXny3+NevF9ozXVhxtIGTaRx1T3Xl4dLWPEb3kzzbKvZzsL2g/TC6t7tdAOe9fKyy/k+rjjvFl2neHgNgOLYkgGDO6Vjv7y6wLixzMLmmHGdYnM711LO1JghsQNcjwWfb1qDd3/wCOXiFMctWT/Vyx9WsGyrbC8bivUYl5HY7QQ06mF6mxeTmvpcPuV83n9WJaidD1Sg2clpAlIv8AeBYYS8EYpgQaxE8swvdzoxhrKOFzP/O2c/K/nDf/AKTmbVsj+uOBDp9FdI2ICExyEqBWEKwERWa2vTWmDMxMDcKz73IHOahSLO+tcYAORPQCnNUy9SCQ3ItGf1QPuFFaCEJSrteg+YBAG+dfBPIWQtKtG1TiFIQUAmdmqZxTGEe962qCz4+qxjZ7/r4zWQRXdlQdF0CQPJWH6V15SptXPFxdhAxCkya6+G4+WqO3ubj8pAoIrGWXL+At5Ag190/CI68Y3K7CWWcUVmzKbPHT7oic4+xVQloUIRNCshVGDarAbM0nvNgcZinhI8VlFrgJe27YMAEkuj56ZAQfNdC93XtGgB5ZBmgBk0jUZV6qtq2rWsGIwC5vQOBJ6KNSiu1q52LEzAWmImdAc44p1t8qYTKXb5IzWSE1rD7IQwtTR68OqUhHZ8uq4t5bhq92KOn8rr31pgEZT3gImNNary9+klxNBoD5Lk58r9Y6uDCfYFjfZtmAnOervlHkOq7t6Y7uuZhMZtdig/8AEgrwz3w6Rz6L2Gz79iYMQ0XLy4a1Y7OPLe40HG6AGsYJEljnudGorQeax/Eb8FiGjNzgPAVP26rpi9MaKBeT2/ey+1AOTRQc6k+nRZ452yn+Ncl6410NiWkYdRAXqrs9lCcR4CB1NV4vZd5a0gHL0XorrepIioNOS6ePPrl1v65ObDtjufj0rL0B8owD9oBcf/Yrn7afjZDWWhMzLXgONDQzpwAOSa00lQrtkm9uLd+HjGXVz7QMY0tc4wGvIFeJIC2WOzrUOY17CGh57xESGOBfnUjvDnovSOswSDAkZGAYnPMZcDRMt7UvLCZGFpED5DUQ4DOYkVyhW27/AMWa0SQrDR7MfZWQoDClZgSymU/0lWt2Y41AOQrOXgnF+sSeKAP/AG05j8KVQCwZIIaJGsHnTqqbYNAgNAGcDfmmh3Diqx+Sz7XZbLFoqGgUzAG7JFhH4oPBQu91ULvfJTVNl2jKIExxogxKpVNUYo3NUTVbBv3cVCDv3K2oXWzZEPYa/Wz8oprBGaMKgVaIiIIUQKotqhYqBVgqigyiItUBVoLhKtwmJDyiBVjJUt9xus94+H5WM8pjN1vHG5XUc21eG5z0J9FwdqWVC4kVmk14L022WtaJyr6SvI3u+tfTDTQyf6Xz8+W531Ph3cfHMY89bshdrZVvIDdy5ltZyTFcz0qV3Phi4dpMZg+q1ye8WsPWToFlC45BeRvr8by45k/0vdbYuGBjQXnvEiBTugS48dB4rg7W2MbOya8AkmpnQGC38KcMmM7X9OTLtescy6XbGO7RwrG9ei2SPlzxVkcBkuLs5+GCWlet2RZNe9rm5EGfDes55WZLMN4ulZ2ZwiQQiLF3bGwBZhIpVci8swOLTzHEb12cPN29frh5eLr7/CcKqFRtBvHUa5Ku0BMAic4pMcl0PFHBCVZKpQU5Z2MBAqtDkClC2M15oys15vPZgEtLsToGHQnIeOnJXd7yXktLHsgTLhQ1Ajz8lF0eoopKIEhVhVyqlShZEIXoi6YVPWlHZHJcSzewNrYF2N5DXZAye61ropkuuJIIBgwYOcHQq7pZ9mxrS4ENmTkImUanpmut+JLGdmWiSwHFMFg7wyrC6IWTZZ/22nfiJ5lxWsJDIStolCjs/uFWUwnclXhj8PcBlaM6b/BUMvefuFdrpzTY2/7opIpOsxUUrv0C0Czfj1wgjXMYcgAZznNbSaxTOnvoqY4UqP6lNmmHsrXEPmwyZrWMRjXKITHgk5LYD1mfX+FmNDkNPfopaaXYWRc4D3C7bKBYLgzM/avitxXDz525a/p18GOpv+3n/icSymcH+fuvOWGzC4CsT5DfyXsrS7B5cDWJHWqG67OBYW5TSRnE1XN2s+HT6ebtNnNDMDAS4iu88XHTktPwScL7SzIggA8ZY4td/wBgvU3XZ7GZCTvXmrMdhf3vIIYS/E6DAD2Y4n/KF7cc7yy/OnnndWaPv9qba9tsR8ohpPAd9/UQPBdzaNy7RhaRQhcT4VsXPtbW2eCHGlaVecTs+Q6r1Scs1ZjPyM4e95f28QLn2RLSO6ZBBqOBG5dP4YsIBdpifHKg+y7t5uYeNxylSxugs2YW6A9cyvDXt7b9N13dTxWTbF1D2HQwRPApl1tBGa0PbIjQhemGXXKV5549sbHl7K4kAgkVc10VgBuGg6FVdbkWfrkYRnimRMmu+Vve2CZ3EaZyUp5p4RmOG5fT3t86wGDj5HTNA5vvJNJ9esitEL3UjTdM9E2EFCrcVUojFtWezJBgtLCDuOIQfNZ7zd7cYybZxDWFwwd2S2sYRwmq6F4sWvGF4kSDmRUZZcyo5oDMIBgNIDRUkBpoN50UrUrLcLN47xe57XMaRic4kONTQ0ip8lsWXZbndmA5rmlvd7wInUET08FqKJUUCiCVKhbAjc2QgsymtC01SGsT32QcCHAEHMb9fUIQKprUC7KwDQA0AAaDjUpwCkKwgkKNJRIQFUEDxVtf7JVQhQ2K2fx9VnxnetBCFrACqAacqlS0mUwtE0Cp7JQdG4N7oWi0UsGQ0cldpkvl53eVr6OE1JCbmKEzmSft9lrZAyWO7O7jeQPUJ7XrzaPleY+IrIdrECXiz0MmHOmoyo1ejxLzHxXbYX2bgATDhByOX5K9uH7xjk+HZ2I3/bxfU5x35HCM+S6QK5+ymYbFg/aCeZEn1WwFYzu8q1jNSNLSoQkhyMOmiwpF1cRIiYJC2gnhRZrJkOdz+wWphqfBUri39kPPVZSuhtRvfHJYCvp8d3jHzuSayoVCrChW2CXtlV2aNQhQBg1VFiYqKAIUhWooAURISgztzTHPgE7gT0CgOX5TWu9/2krdjmPvxB+Wk5DMDf73J9nfDgDi3WIk6TJmK5LY9jYNBMfSPeSBlkzLC2M8hnBrCbNEvvZaAS3NsmpkcIjn0WiwfibMRPp0THWbTm0Gms8aeZ6omMa0ANAilK0n7K7NBUR4Rwy3mPBC8QUlTS1GMJMAE8lGujd41TDe35AwNwAHoFbv8Jr9PZcyKvcGDqei83tS/wBox7mgsgEgZF0aFwJpIjRd5t7Iq1rQd5knqSvPbXbaOLnljDNS5rQXeJInopjvftq9fxms9tWgzwu5j8ELq7O2iX2jWFhaSa1oANcvcrj3LZT7RheyHEODcAnEJ/UdA3idy6+wrm9toS/OrBWflkH/AKhM7NXSzH3HrY3GPRJtiYP2/CIOolWrxw9F8uu+MdxtpZGre6fDLygrT2i89dS5ts/DMEiRSJgcF2rGze7SOazY1o/tF5X4seMbO8QIdUAGtKQSF6wbP+px8F5T4rukOaGmB3uNab1vj32mmM56r0lwtALNgMyGNnnhErQbWVLvZw1ssaDAmmsVhOdZOORb/wAf5WMvlYU20T7F4zKzvur/AKm9CkXu6WnZu7wFCZBOikiuhdrTF3t9a/hbWeC5t0MABdBhWkrk7bvDGObjeGy2gM1IOdOa59lbNeJY4OExSc/FN+LmAsxEAloBBMSBiAIB0mfJJZYMYX4BGJ0xSBFO6AKBfQ4fpHDzSdqYhcVcoHFezxCiKthp4+v9Ij096rO10w3y0eCMOUGYEkRupnUdFmFtaazEioEEzh4Gg72mq65fTXLfuzlRz+e/Pkp2XTnS/HFcM7oAGGc48vRLd2gP6i0Hj9R3DIAea6hJr7O/PwUOqdjRUcEJCa4z74IH1MyFLU0yudVNZaewrUVaS0fTUcjVIFtU51UUQ/T22/uE5rx5/wBKlFRbbSkfZA91VFFUUXocatRaRQepiVqKA7veTZzHywQIElhNZaBWCYkeO+RuZwltSTmSTJJNSSdSTKiiznPl6S307Fk6iu2sQ4H35KKL5ld0cK4Eh75afmInkfwu9ZEwrUUybhjnb15n4jbOH/KOo/hRRXi+8TL616YudEEQQqxkZwOZUUWQLrwBr0WW+3/uOgE0PhRRRWfI0XGaUgbzMldAPUUVR574hDngsZEkAVMUmTB30CVZF2EY4xRWMp4eSpRfQ4fpHBy/ajJQEqKL0eS2O98kQd9/NRRRQ2z6UHPOsrKX8PVRRSLRi1PWmqZ2nBRRBWNVjUUUrL//2Q==" class="img-responsive" style="height:250px" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Assistant Principal at Freehold Regional High School District. </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Mr. Rodney Taylor</div>
+        <div class="panel-body"><img src="https://ih1.redbubble.net/image.1257551384.2289/st,small,507x507-pad,600x600,f8f8f8.jpg" class="img-responsive" style="height:250px" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"> Assistant Principal and Supervisor of Extracurricular Activities at Freehold Regional High School District. </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading"> Mr. Adam Brusotti </div>
+        <center>
+        <div class="panel-body"><img src="https://fthspatpress.com/wp-content/uploads/2016/10/File-Oct-29-5-10-39-PM-900x675.jpeg" class="img-responsive" style="height:250px" style="width:100%" alt="Image"></div>
+      </center>
+
+        <div class="panel-footer">Supervisor of Extracurricular Activities</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Sign up for FTHS news</p>
+  <form class="form-inline">Get news:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>

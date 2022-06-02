@@ -1,0 +1,108 @@
+
+/* NOTE: Nav bar stuff: */
+
+.wdadH{
+  font-size: 150px;
+  color: darkblue;
+}
+
+.wdaD{
+  font-size: 50px;
+  color: darkblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  opacity: 90%;
+}
+
+.navlinks ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navlinks li {
+list-style: none;
+}
+
+.navlinks li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+  font-size: 20px;
+}
+
+.navlinks li:hover {
+background-color: grey;
+}
+
+.imgOne{
+  width: 50px;
+  height: 50px;
+}
+
+/* NOTE: End of nav bar stuff */
+
+
+
+
+  /* NOTE: Aiden background image stuff and first slide */
+
+
+
+  /* NOTE: Aiden background image stuff and first slide */
+
+
+
+
+
+.backgroundOne{
+background-image: url(https://patch.com/img/cdn/users/122977/2011/02/raw/18535ba7fb3823b2643e983321fca92d.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 1100px;
+}
+
+.backgroundTwo{
+background-image: url(https://patch.com/img/cdn/users/122977/2011/02/raw/18535ba7fb3823b2643e983321fca92d.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 1500px;
+}
+
+
+.footerOne{
+  background-color: lightblue;
+  width: 1875px;
+  height: 350px;
+  align-items: center;
+  margin-left: -30px;
+}
+
+.aProgram{
+    font-size: 11px;
+}
+
+
+.Oneabout{
+  background-color: lightblue;
+  border-radius: 40px;
+}
+
+
+.footerH{
+font-size: 50px;
+}
+
+.footerP{
+  font-size: 30px;
+}
+
+
+.aboutH{
+  font-size: 50px;
+}
